@@ -1,0 +1,22 @@
+import React from 'react';
+import './Mainview.css';
+
+function Mainview() {
+  return (
+    <main className='main'>
+      <h2 className='main-title'>Hello World! 🙂</h2>
+      <br />
+      <p>
+        Most of my friends call me <strong>Layos</strong>, but my full name is Juan Felipe Rodriguez. I was born in a town
+        in Colombia called Urrao, but all my life I have lived in <strong>Medellin</strong>, the capital of the region,
+        city that I love btw. It was here where my <strong>passion for technology</strong> started when with my friends we
+        used to open all kinds of electronic devices and put them back together trying to make them work again (most
+        of the time they didn't come back to life) but that led me to study <strong>software development</strong> in
+        different places like university, bootcamps and on my own. Since then I have focused on building fast,
+        scalable, accessible, and responsive web applications using modern technologies.
+      </p>
+    </main>
+  )
+}
+
+export default Mainview;
