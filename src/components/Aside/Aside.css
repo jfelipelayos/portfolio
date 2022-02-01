@@ -3,3 +3,24 @@
   width: 30%;
   padding: 0px 50px 0px 50px;
 }
+
+.aside-text {
+  text-align: start;
+}
+
+@media (max-width: 960px) {
+  .aside {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .aside-text {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  @media (max-width: 320px) {
+    .aside-text {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  }
+}

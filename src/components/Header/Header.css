@@ -40,6 +40,7 @@ header {
 .header-nav {
   width: 30%;
   height: 100%;
+  padding-right: 40px;
 }
 
 .header-nav-list {
@@ -53,19 +54,13 @@ header {
 .header-nav-list-item {
   margin-left: 30px;
   align-self: center;
-  color: #0000ee;
 }
 
 .header-nav-list-item > a {
   align-self: center;
-  color: #0000ee;
+  font-weight: 400;
   text-decoration: none;
   padding: 10px 1rem;
-}
-
-.header-nav-list-item > a:hover {
-  color: #3a3a3a;
-  cursor: pointer;
 }
 
 .section-open {

@@ -5,7 +5,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
   const [section, setSection] = useState(useLocation().pathname);
-  console.log(useLocation().pathname);
   return (
     <header>
       <div className="header container">

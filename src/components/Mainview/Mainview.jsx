@@ -5,8 +5,9 @@ function Mainview() {
   return (
     <main className='main'>
       <h2 className='main-title'>Hello World! 🙂</h2>
-      <br />
-      <p>
+      <a href="/" className='main-story'>Read my full story</a>
+      <br /><br />
+      <p className='main-paragraph'>
         Most of my friends call me <strong>Layos</strong>, but my full name is Juan Felipe Rodriguez. I was born in a town
         in Colombia called Urrao, but all my life I have lived in <strong>Medellin</strong>, the capital of the region,
         city that I love btw. It was here where my <strong>passion for technology</strong> started when with my friends we

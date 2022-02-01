@@ -1,0 +1,29 @@
+.aside-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.aside-btn:first-child {
+  margin-top: 20px;
+}
+
+.aside-btn-link {
+  color: #fff;
+}
+
+.aside-btn-title,
+.aside-btn-text {
+  font-weight: 400;
+}
+
+.aside-btn-text {
+  display: inherit;
+}
+
+.aside-btn-icon {
+  display: inline;
+  width: 18px;
+  margin-left: 5px;
+  position: relative;
+  top: 5px;
+}
