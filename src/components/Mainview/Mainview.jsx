@@ -2,10 +2,15 @@ import React from 'react';
 import './Mainview.css';
 
 function Mainview() {
+
+  (() => {
+    document.title = 'Felipe Layos'
+  })()
+
   return (
     <main className='main'>
       <h2 className='main-title'>Hello World! 🙂</h2>
-      <a href="/" className='main-story'>Read my full story</a>
+      <a href="https://medium.com/@jfelipelayos/from-0-to-software-developer-job-my-story-95a30e6fd6f5" className='main-story' target='_blank' rel='noreferrer'>Read my full story</a>
       <br /><br />
       <p className='main-paragraph'>
         Most of my friends call me <strong>Layos</strong>, but my full name is Juan Felipe Rodriguez. I was born in a town
