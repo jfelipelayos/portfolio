@@ -5,7 +5,7 @@ import Aside from './components/Aside/Aside'
 import Mainview from './components/Mainview/Mainview'
 import Projects from './components/Projects/Projects';
 import Blog from './components/Blog/Blog';
-import Footer from './components/Footer/Footer'
+/* import Footer from './components/Footer/Footer' */
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Aside />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
