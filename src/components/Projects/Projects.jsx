@@ -5,7 +5,7 @@ function Projects() {
   (() => {
     document.title = 'Felipe Layos - Projects'
   })()
-  return <div>Projects</div>;
+  return <div className='projects'>No projects yet. . .</div>;
 }
 
 export default Projects;
