@@ -1,0 +1,10 @@
+.blog-section {
+  width: 70%;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  .blog-section {
+    width: 100%;
+  }
+}
